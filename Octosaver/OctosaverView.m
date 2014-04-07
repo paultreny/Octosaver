@@ -57,7 +57,7 @@
     [self.label setBezeled:NO];
     self.label.textColor = [NSColor blackColor];
     
-    self.label.font = [NSFont fontWithName:@"Helvetica Neue" size:24.0];
+    self.label.font = [NSFont fontWithName:@"Helvetica Neue Bold" size:32.0];
     [self addSubview:self.label];
     
     [self refreshOctocat];
